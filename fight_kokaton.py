@@ -249,7 +249,6 @@ def main():
         explosions = [exp for exp in explosions if exp.life > 0]
         key_lst = pg.key.get_pressed()
         bird.update(key_lst, screen)
-        # beam.update(screen)
 
         for bomb in bombs:   
             bomb.update(screen)
